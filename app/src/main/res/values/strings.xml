@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">App Ban Da Quy</string>
+    <string name="headerlogin">ĐĂNG NHẬP</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="labelemailsignin">Địa chỉ email</string>
+    <string name="inputemail">Email</string>
+    <string name="labelpass">Mật khẩu</string>
+    <string name="inputpass">Mật khẩu</string>
+    <string name="labelsignin">Sign in</string>
+    <string name="labelsignup">Đăng nhập với facebook</string>
+    <string name="footer">Phục vụ bạn là niềm vui của chúng tôi</string>
+    <string name="newuser">Chưa có tài khoản</string>
+    <string name="signintext">Tạo tài khoản</string>
+    //signup
+    <string name="dangky">ĐĂNG KÍ</string>
+    <string name="email">Email</string>
+    <string name="diachiemail">Địa chỉ email</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="dangki">Đăng kí</string>
+    <string name="title_item">Title</string>
+    <string name="name_sp">Tên sản phẩm</string>
+    <string name="detail_sp">Chi tiết sản phẩm</string>
+    <string name="dola">$</string>
+    <string name="ten_sp">Ten san pham</string>
+    <string name="giasp">Gia san pham</string>
+    <string name="soluong_sp">So luong san pham</string>
+    <string name="content">Image</string>
+    <string name="tongtien">Tổng Tiền</string>
+    <string name="giatien">Giá Tiền</string>
+    <string name="thongbao">Giỏ hàng đang chống hãy mua gì đó</string>
+    <string name="info_kh">Thông tin khách hàng</string>
+    <string name="hovaten">Họ và tên</string>
+    <string name="sdt">Sô điện thoại</string>
+    <string name="xacnhan">Xác nhận mua</string>
+    <string name="labled">Giá Sản phẩm</string>
+    <string name="edit_admin">Chỉnh sửa</string>
+    <string name="cancel">Thoát</string>
+    <string name="loaisp">Loại Sản Phâm</string>
+    <string name="delete_product">Bạn muốn xóa sản phẩm này</string>
+    <string name="soluong">số lượng</string>
+
+    <string name="danhsach">Danh sách sản phẩm</string>
+    <string name="chitiet">Chi tiết sản phẩm</string>
+    <string name="giohang">Giỏ Hàng</string>
+    <string name="camon">Cảm ơn</string>
+    <string name="suasanpham">Sửa sản phẩm</string>
+    <string name="xoasanpham">Xóa Sản Phẩm</string>
+    <string name="camon1">Cams</string>
+    <string name="camon2">Cám ơn bạn đã tin tưởng chúng tôi</string>
+    <string name="camon3">Vui lòng chờ trong vài phút để kỹ</string>
+    <string name="camon4">thuật viên gọi điện hỗ trợ</string>
+    <string name="tenkh">Tên Khách Hàng</string>
+    <string name="sdt2">Số điện thoại</string>
+
+</resources>

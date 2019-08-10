@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.home.ChitietActivity">
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.v4.widget.DrawerLayout
+                android:id="@+id/drawer_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/imgHinhAnhSP"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/thumbnail_height"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:contentDescription="@android:string/VideoView_error_button"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.498"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+                        app:layout_constraintVertical_bias="0.012"
+                        app:srcCompat="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tvTenGiohang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/title_item"
+                        android:textColor="@color/black2"
+                        android:textSize="34sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.024"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imgHinhAnhSP"
+                        app:layout_constraintVertical_bias="0.021" />
+
+                    <TextView
+                        android:id="@+id/tvGiaSp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/detail_sp"
+                        android:textColor="@color/colorAccent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.028"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTenGiohang"
+                        app:layout_constraintVertical_bias="0.023" />
+
+                    <TextView
+                        android:id="@+id/tvSoluongSPChitiet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/detail_sp"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.033"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvGiaSp"
+                        app:layout_constraintVertical_bias="0.02" />
+
+                    <Spinner
+                        android:id="@+id/spSoLuong"
+                        android:layout_width="158dp"
+                        android:layout_height="22dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/tvTenGiohang"
+                        app:layout_constraintTop_toBottomOf="@+id/imgHinhAnhSP"
+                        app:layout_constraintVertical_bias="0.022" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/dola"
+                        android:textColor="@color/colorAccent"
+                        app:layout_constraintBottom_toTopOf="@+id/tvDetailSP"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.057"
+                        app:layout_constraintStart_toEndOf="@+id/tvGiaSp"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTenGiohang"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:minHeight="?attr/actionBarSize"
+                        android:theme="?attr/actionBarTheme"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.design.widget.NavigationView
+                    android:id="@+id/nv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:fitsSystemWindows="true"
+                    app:menu="@menu/navigation_menu">
+
+                </android.support.design.widget.NavigationView>
+
+            </android.support.v4.widget.DrawerLayout>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_chitietsp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/add"
+            app:backgroundTint="@color/bottomappbar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/it_kimcuong"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Đá Quý"
+
+        />
+    <item
+        android:id="@+id/it_vang"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Vàng "
+        />
+    <item
+        android:id="@+id/it_bac"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Bạc"
+        />
+    <item
+        android:id="@+id/it_dong"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="Đồng"
+        />
+</menu>
